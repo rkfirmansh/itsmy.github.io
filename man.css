@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: 'Chewy';
+    font-size: 22px;
+}
+
+.container{
+    max-width: 500px;
+    margin: 0 auto;
+    background: aqua;
+    height: 100vh;
+    background-image: url( background.jpg );
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.profile{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   padding: 20px;
+}
+
+.profile>img{
+    width: 150px;
+    height: 150px;
+    border: 5px solid rgb(11, 156, 156);
+    border-radius: 100%;
+
+}
+
+.profile>p{
+    font-size: 30px;
+    font-weight: 900;
+    letter-spacing: 1px;
+    color: rgb(9, 172, 172);
+    text-transform: capitalize;
+    text-align: center;
+    position: relative;
+    top: 10px;
+    border:3px solid rgb(8, 174, 108) ;
+    background-color: rgb(8, 168, 168);
+    background-image: url(tanjiro.gif);
+    border-radius: 70px;
+}
+
+.link{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.link>a{
+    text-decoration: none;
+    color: rgb(5, 190, 100);
+    font-size: 20px;
+    text-align: center;
+    border: 3px solid rgb(8, 174, 108);
+    background-color: rgb(3, 220, 147);
+    background-image: url(run.gif);
+    border-radius: 20px;
+    margin: 5px 10px;
+    padding: 3px;
+    font-weight: 500;
+    height: 100%;
+}
+
+.link>a:hover {
+    background-color : rgb(10, 23, 44);
+}
+
+.footer {
+    text-align: center;
+    position: relative;
+}
+
+.footer>i{
+    color: rgb(3, 21, 157);
+    font-size: 20px;
+}
+
+.p {
+    color:aqua;
+    background-color: rgb(1, 19, 3);
+}
